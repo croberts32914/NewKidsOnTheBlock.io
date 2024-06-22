@@ -1,5 +1,5 @@
 body {
-  background-image: url('dolphin.jpeg'); 
+  background-image: url('newkidsontheblock.jpeg');
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -11,11 +11,18 @@ body {
    background-repeat: no-repeat;
     /* Prevent the background image from repeating */
      background-position: center;
+      align-items: flex-end;
+        /* Align items at the bottom */
+}
+
+.countdown-container {
+  margin-bottom: 20px;
+  /* Add some margin at the bottom for spacing from the bottom edge */
 }
 
 .countdown-container {
   text-align: center;
-  background-color: white;
+    background-color: white;
   /* Set the background color of .countdown-container to white */
   padding: 20px;
   /* Add some padding for better spacing */
